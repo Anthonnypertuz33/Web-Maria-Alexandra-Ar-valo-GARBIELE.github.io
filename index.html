@@ -35,6 +35,15 @@
 }
 
 </style>
+  <style>
+    .fade-in {
+      animation: fadeInAnimation 2s ease forwards;
+      opacity: 0;
+    }
+    @keyframes fadeInAnimation {
+      to { opacity: 1; }
+    }
+  </style>
 <body>
  <!-- Navbar Start -->
     <div class="container-fluid p-0 nav-bar">
@@ -82,8 +91,12 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 position-relative overlay-bottom">
         <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px">
-            <h1 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase">MARIA ALEXANDRA AREVALO-GABRIELE</h1>
-            <h4 style="font-size: 1rem; font-weight: normal; text-transform: uppercase; color: white; margin-bottom: 1rem; margin-top: 0; margin-top: 3rem !important;">my creative process is transcendental and mystical&quot; French-Colombian. Barranquillera by heart</h4>
+          <h1 style="color: white; text-transform: uppercase; font-size: clamp(1.5rem, 4vw, 3rem); margin-top: 3rem; margin-bottom: 1rem; text-align: center;" class="fade-in">
+    MARIA ALEXANDRA AREVALO-GABRIELE
+  </h1>
+  <h4 style="color: white; font-size: clamp(1rem, 2.5vw, 1.5rem); margin: 0; text-align: center;" class="fade-in">
+    my creative process is transcendental and mystical&quot; French-Colombian. Barranquillera by heart
+  </h4>
 
             </div>
         </div>
